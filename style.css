@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+  }
+
+  h6{
+    font-size: 26px;
+  }
+
+  p{
+    font-size: 26px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 64px !important;
+  }
+  ul {
+    list-style: none;
+  }
+
+  .container_catalogo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .item_catalogo{
+    display: flex;
+    background-color: yellow;
+    height: 275px;
+    width: 500px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    padding-top: 25px;
+  }
+  .texto_item {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: justify;
+  }
+  .imagem{
+    width: 200px;
+    height: 250px;
+  }
